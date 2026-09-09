@@ -138,16 +138,16 @@ basic.forever(function () {
         volume = 0
     }
     if (pattern == 1) {
-        music.play(music.stringPlayable("C5 G C5 C5 E C5 C5 C ", bpm * 120), music.PlaybackMode.UntilDone)
+        music.play(music.stringPlayable("F - F - F - F - ", bpm * 120), music.PlaybackMode.UntilDone)
     }
     if (pattern == 2) {
-        music.play(music.stringPlayable("G F G F G F G F ", bpm * 120), music.PlaybackMode.UntilDone)
+        music.play(music.stringPlayable("F - - F - F - - ", bpm * 120), music.PlaybackMode.UntilDone)
     }
     if (pattern == 3) {
-        music.play(music.stringPlayable("E D D - E D D - ", bpm * 120), music.PlaybackMode.UntilDone)
+        music.play(music.stringPlayable("- F - - F - - F ", bpm * 120), music.PlaybackMode.UntilDone)
     }
     if (pattern == 4) {
-        music.play(music.stringPlayable("C D F C D F C D ", bpm * 120), music.PlaybackMode.UntilDone)
+        music.play(music.stringPlayable("- - - F - F - F ", bpm * 120), music.PlaybackMode.UntilDone)
     }
     if (pause2 >= 1) {
         music.stopAllSounds()

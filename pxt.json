@@ -1,5 +1,5 @@
 {
-    "name": "MICRO:BEATS",
+    "name": "micro:beats (snare)",
     "description": "",
     "dependencies": {
         "core": "*",
